@@ -1,0 +1,19 @@
+¿Cuál es el punto más débil de PGP?
+El punto más débil de PGP es que su seguridad depende de que el usuario proteja correctamente su clave privada. Si alguien obtiene la clave privada y la contraseña que la protege, puede descifrar los mensajes o 
+hacerse pasar por el usuario.
+
+¿Cuándo es conveniente utilizar solamente cifrado simétrico?
+Es conveniente utilizar solamente cifrado simétrico cuando las personas o sistemas que se comunican ya comparten una clave secreta de forma segura y no es necesario intercambiar claves mediante un canal público.
+También es conveniente cuando se necesita cifrar grandes cantidades de información de manera rápida.
+
+¿En qué consiste el ciclo de vida del desarrollo de software seguro (etapa por etapa)?
+El ciclo de vida del desarrollo de software seguro consiste en integrar la seguridad durante todas las etapas del desarrollo de un software, y no solamente al final. Sus principales etapas son:
+
+Requisitos: se identifican los requisitos de seguridad que debe cumplir el sistema.
+Diseño: se analiza la arquitectura del sistema y se identifican posibles amenazas y vulnerabilidades.
+Implementación: se desarrolla el software siguiendo prácticas de programación segura para evitar vulnerabilidades.
+Pruebas: se realizan pruebas de seguridad para detectar errores, vulnerabilidades y posibles ataques.
+Despliegue: se instala y configura el software de manera segura, protegiendo sus componentes y accesos.
+Mantenimiento: se monitorea el sistema, se corrigen vulnerabilidades y se aplican actualizaciones y parches de seguridad.
+
+De esta manera, la seguridad se considera durante todo el desarrollo y no únicamente cuando el software ya está terminado.
